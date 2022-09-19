@@ -1,0 +1,129 @@
+/* *{
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #E67E22;
+}
+header{
+    padding-bottom: 5px;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color: #000;
+    font-size: 50px;
+    margin-top: 20px;
+  cursor: default;
+  transform: translateX(100px);
+}
+.volver{
+    font-size: 15px;
+    color: black;
+   margin-top: 30px;
+   transform: translateX(100px);
+   text-decoration: none;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h6{
+    position: absolute;
+    transform: translateX(100px);
+}
+.icon{
+    float: left;
+    left: 5px;
+    position: absolute;
+     width: 250px;
+    height: 150px;
+    margin-top: -15px;
+    margin-left: -70px;
+    
+   
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 400px;
+    justify-content: center;
+    margin: 0px auto;
+}
+form{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    width: 500px;
+    border-radius: 1rem;
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 10px 10px 10px black ;
+    border: 2px solid black;
+ 
+}
+.inputs{
+    margin: 10px auto;
+    width: 300px;
+    padding: 5px;
+    transition: 0.6s all ease-in-out ;
+     flex-wrap: wrap;
+    border:2px solid  #E67E22;
+    background:#E67E22;
+    border-radius: 10px;
+    outline: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inputs::placeholder{
+color: black;
+}
+.inputs:hover{
+    border: 2px solid #000;
+    transition: 0.6s all ease-in-out ;
+    background-color: #fff;
+}
+#send{
+    padding: 8px;
+    width: 300px;
+    border-radius: 10px;
+    border:2px solid  #E67E22;
+    outline: none;
+    margin: 20px auto;
+    background-color: #E67E22;
+    color: black;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    transition: all 0.6s;
+}
+#send:hover{
+   border: 2px solid black;
+   transition: all 0.6s;
+   background-color: #fff;
+}
+.recuperar{
+    text-decoration: none;
+    color: black;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.recuperar:hover{
+   color: gray;
+    
+}
+@media (max-width:325px) {
+    .icon{
+       
+        width: 230px;
+       height: 110px;
+       margin-top: 10px;
+       margin-left: -80px;
+      
+   }
+    h1{
+        font-size: 40px;
+        margin-top: 30px;
+        margin-left: -25px;
+    }
+} */

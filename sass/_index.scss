@@ -1,0 +1,92 @@
+/*MIXINS*/
+@mixin wyh($w:0,$h:0) {
+    width: $w;
+    height: $h;
+}
+/**/
+*{
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+body{
+    background:#E67E22;
+    padding: 0px;
+    margin:0px;
+}
+header{
+    padding-bottom: 5px;
+    display: flex;
+}
+h1{
+    color: #000;
+    font-size: 50px;
+    margin-top: 20px;
+    cursor: default;
+    transform: translateX(100px);
+    @media (max-width:325px) {
+        font-size: 35px;
+        margin-top: 30px;
+        margin-top: 45px;
+        margin-left: -35px;
+    }
+}
+.icon{
+    float: left;
+    left: 5px;
+    position: absolute;
+    @include wyh(250px,150px );
+    margin-top: -15px;
+    margin-left: -70px;
+    @media (max-width:325px) {
+        @include wyh(10rem,5rem );
+        margin-top: 20px;
+        margin-left: -75px;
+    }
+}
+.cont{
+    @include wyh(100%,18rem );
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    .div1{
+        @include wyh(9rem,10rem );
+        margin: 2rem;
+        border: 2px solid black;
+        justify-content: center;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        #user{
+            @include wyh(100px,100px );
+            margin: 0px auto;
+            padding: 10px;
+            cursor: pointer;
+            &:hover{
+                @include wyh(105px,105px );
+            }
+        }
+        #adduser{
+            @include wyh(100px,100px );
+            margin: 0px auto;
+            padding: 10px;
+            cursor: pointer;
+            &:hover{
+                @include wyh(105px,105px );
+            }
+        }
+        @media (max-width:325px) {
+            @include wyh(9rem,10rem );
+                margin: 2rem;
+                border: 2px solid black;
+                justify-content: center;
+                text-align: center;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    }
+ @media (max-width:325px) {
+    @include wyh(100%,18rem );
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+}
