@@ -175,13 +175,14 @@ main{
    
 }*/
 #mensaje{
-    width: 300px;
+    width: 350px;
     height: 40px;
     margin: 0px auto;
     margin-top: 40px;
     border-radius: 2rem;
     outline: none;
     border: 2px solid black;
+    /* margin-left: 20px; */
 }
 #mensaje::placeholder{
     color: black;
@@ -220,7 +221,7 @@ footer{
     position: fixed;
     bottom: 0px;
     box-shadow: 0px -10px 7px black ;
-    
+    justify-content: center;
 }
 form{
     display: flex;
@@ -248,7 +249,44 @@ form{
          display: block;
          width: 80%;
     }
-    
+    #mensaje{
+        width: 200px;
+        height: 30px;
+        margin-top: 40px;
+        border-radius: 2rem;
+        outline: none;
+        border: 2px solid black;
+    }
+    #actualizar{
+        height: 30px;
+        margin: 0px auto;
+        margin-top: 43px;
+        float: left;
+        left:  10px;
+        position: absolute;
+        border: 2px solid black;
+        border-radius: 2rem;
+        padding: 5px;
+    }
+    #enviar{
+   
+        height: 30px;
+        margin: 0px auto;
+        margin-top: 43px;
+        float: right;
+        right: 10px;
+        position: absolute;
+        border: 2px solid black;
+        border-radius: 2rem;
+        padding: 5px;
+        cursor: pointer;
+    }
+    footer{
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+    }
 }
 @media (max-width:356px) {
     
@@ -321,7 +359,7 @@ form{
         width: 130px;
         height: 30px;
         float: right;
-        right: 110px;
+        right: 120px;
         position: absolute;
         margin-top: 40px;
         border-radius: 2rem;
@@ -339,6 +377,17 @@ form{
         border-radius: 2rem;
         padding: 5px;
     }
+    h1{
+        font-size: 30px;
+        margin-top: 35px;
+        margin-left: -55px;
+    }
+    .icon{
+        width: 150px;
+        height: 100px;
+        margin-top: 5px;
+        margin-left: -55px;
+    }
     
 }
 @media (max-width:344px) {
@@ -347,7 +396,7 @@ form{
         width: 140px;
         height: 30px;
         float: right;
-        right: 70px;
+        right: 120px;
         position: absolute;
         margin-top: 40px;
         border-radius: 2rem;
@@ -357,23 +406,23 @@ form{
     
 }
 @media (max-width:326px) {
-    h1{
-        font-size: 40px;
+    /* h1{
+        font-size: 30px;
         margin-top: 10px;
         margin-left: -25px;
-    }
-    .icon{
+    } */
+    /* .icon{
        
          width: 230px;
         height: 110px;
         margin-top: -10px;
         margin-left: -80px;
        
-    }
-    h6{
+    } */
+    /* h6{
        
             transform: translateX(220px);
-    }
+    } */
 }
 @media (max-width:308px) {
     
@@ -381,7 +430,7 @@ form{
         width: 120px;
         height: 30px;
         float: right;
-        right: 70px;
+        right: 130px;
         position: absolute;
         margin-top: 40px;
         border-radius: 2rem;
@@ -404,10 +453,10 @@ form{
 }
 @media (max-width:288px) {
     #mensaje{
-        width: 90px;
+        width: 110px;
         height: 30px;
         float: right;
-        right: 70px;
+        right: 120px;
         position: absolute;
         margin-top: 40px;
         border-radius: 2rem;

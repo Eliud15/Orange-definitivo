@@ -69,7 +69,7 @@ if (isset($_SESSION["usuario"])) {
     <footer> 
         <form action="enviarmensaje.php" method="post"> 
             <input type="password" name="nombre" id="nombre"  style="visibility: hidden; position: absolute;" >
-            <input type="button" name="actualizar" id="actualizar" value="Actualizar">
+            <!-- <input type="button" name="actualizar" id="actualizar" value="Actualizar"> -->
              <input type="text" id="mensaje" name="mensaje" placeholder="Escribe aqui tu mensaje" autocomplete="off"> 
              <input type="submit" name="enviar" id="enviar" value="Enviar">
         </form>
