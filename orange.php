@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="frienzone.css">
+    <link rel="stylesheet" href="orange.css">
     <link rel="shortcut icon" href="Orangef.png" type="image/x-icon">
     <title>Orange</title>
 </head>
@@ -70,11 +70,11 @@ if (isset($_SESSION["usuario"])) {
         <form action="enviarmensaje.php" method="post"> 
             <input type="password" name="nombre" id="nombre"  style="visibility: hidden; position: absolute;" >
             <!-- <input type="button" name="actualizar" id="actualizar" value="Actualizar"> -->
-             <input type="text" id="mensaje" name="mensaje" placeholder="Escribe aqui tu mensaje" autocomplete="off"> 
+             <input type="text" id="mensaje" name="mensaje" placeholder="Escribe aqui..." autocomplete="off"> 
              <input type="submit" name="enviar" id="enviar" value="Enviar">
         </form>
     </footer>
-    <script src="friendzone.js"></script>
+    <script src="orange.js"></script>
   <?php
     }
    else {

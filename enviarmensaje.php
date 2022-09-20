@@ -15,6 +15,6 @@ echo("<center><button class='btn'>Volver</button></center>");
 <script>
 
     
-    location.href="frienzone.php"
+    location.href="orange.php"
 
 </script>

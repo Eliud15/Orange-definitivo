@@ -22,7 +22,7 @@ if (!empty($usuario) && !empty($contrasena) ) {
     if ($resultado->num_rows >0) {
         echo("<center><h1>usuario correcto</h1> </center>");
         $_SESSION["usuario"] = $usuario;
-            header("Location: frienzone.php");
+            header("Location: orange.php");
     }
     else{
         echo("<center><h1>Usuario incorrecto  <br> o no registrado</h1> </center>"); 

@@ -42,11 +42,11 @@ cancelar.addEventListener("click",(e)=>{
 aceptar.addEventListener("click",(e)=>{
     location.href="salir.php"
 });
-Actualizar.addEventListener("click",(e)=>{
-    location.reload("")
-    scrolldown() 
-    window.scroll(0,900000000000000)
-});
+// Actualizar.addEventListener("click",(e)=>{
+//     location.reload("")
+//     scrolldown() 
+//     window.scroll(0,900000000000000)
+// });
 function scrolldown() {
     window.scroll({
         top: 9000000000000,

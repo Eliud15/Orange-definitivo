@@ -319,7 +319,7 @@ form{
         color: black;
         position: absolute;
         float: right;
-        right: 20px;
+        right: 5px;
         margin-top: 70px;
         border:solid black 2px;
     }
@@ -331,14 +331,14 @@ form{
         color: black;
         position: absolute;
         float: right;
-        right: 110px;
+        right: 105px;
         margin-top: 70px;
         border:solid black 2px;
     }
     .cerrars{
         text-align: center;
         position: absolute;
-        margin-left: 60px;
+        /* margin-left: 60px; */
         color: black;
     }
 }
