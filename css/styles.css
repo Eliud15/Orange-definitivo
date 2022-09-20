@@ -65,6 +65,7 @@ h1 {
   justify-content: center;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 10px;
 }
 .cont .div1 #user {
   width: 100px;
@@ -114,6 +115,7 @@ h1 {
   font-size: 15px;
   color: black;
   margin-top: 30px;
+  display: inline;
   transform: translateX(100px);
   text-decoration: none;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
